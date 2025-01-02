@@ -5,7 +5,7 @@
     "main": "ghost/index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/thelovekesh/ghost-v5-on-heroku.git"
+        "url": "git+https://github.com/loadmill/ghost-v5-on-heroku.git"
     },
     "keywords": [
         "ghost",
