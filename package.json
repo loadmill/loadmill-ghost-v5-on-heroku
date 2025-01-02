@@ -1,11 +1,11 @@
 {
-    "name": "ghost-v5-on-heroku",
+    "name": "loadmill-ghost-v5-on-heroku",
     "version": "5.94.0",
     "description": "Deploy latest ghost v5 on Heroku",
     "main": "ghost/index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/loadmill/ghost-v5-on-heroku.git"
+        "url": "git+https://github.com/loadmill/loadmill-ghost-v5-on-heroku.git"
     },
     "keywords": [
         "ghost",
