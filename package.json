@@ -7,6 +7,10 @@
         "type": "git",
         "url": "git+https://github.com/loadmill/loadmill-ghost-v5-on-heroku.git"
     },
+    "engines": {
+        "node": "18.x",
+        "npm": "8.x"
+    },
     "keywords": [
         "ghost",
         "ghost v5",
