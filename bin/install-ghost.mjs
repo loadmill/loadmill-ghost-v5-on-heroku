@@ -21,7 +21,7 @@ if (!dist) {
 const { tarball, shasum } = dist;
 const tarballRes = await fetch(tarball);
 const tarballBuffer = await tarballRes.arrayBuffer();
-const hash = crypto.hash("sha1", Buffer.from(tarballBuffer));
+const hash = crypto.createHash("sha1").update(Buffer.from(tarballBuffer)).digest("hex");
 
 if (hash.toString("hex") !== shasum) {
     throw new Error("Integrity check failed");
