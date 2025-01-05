@@ -5,3 +5,4 @@ ghost
 content/adapters/storage
 content/themes/casper
 content/themes/lyra
+.DS_Store
